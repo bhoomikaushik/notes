@@ -42,7 +42,7 @@ Below is a breakdown of each problem, its cause, and the solution applied.
 
 ### **Cause:**  
 The script originally checked if it was running inside WSL using `grep -q Microsoft /proc/version`, but this failed on **WSL2** because the identifiers changed and the checking was **case-sensitive**. This led to WSL not being detectable.
-![](https://github.com/rhearobinson19/Mthree_Daily_Documentation/blob/main/WEEK%206/Images/REACT%20APP%20IMAGES/wsl_issue.png)
+
 ### **Solution:**  
 Modified the detection command to check for both **"microsoft"** and **"wsl"**, ensuring compatibility with both WSL1 and WSL2 and making it case-insensitive. <br>
 What the flags mean: <br>
