@@ -78,7 +78,7 @@ Issue can be resolved in two ways:
 
 ### **Cause:**  
 The script expected **Python 3.9**, but **Python 3.12** was also installed. This caused `apt_pkg` to be installed for Python 3.12 but missing for Python 3.9, leading to package update failures.
-![](https://github.com/rhearobinson19/Mthree_Daily_Documentation/blob/main/WEEK%206/Images/REACT%20APP%20IMAGES/apt_error.png)
+![]
 ### **Solution:**  
 1. Verified the issue by running:  
    ```sh
@@ -172,7 +172,7 @@ Ran Docker Separately Before Running the Full Script:
    docker build -t react-sre-app:latest .
    ```
 Image built successfully: <br>
-![](https://github.com/rhearobinson19/Mthree_Daily_Documentation/blob/main/WEEK%206/Images/REACT%20APP%20IMAGES/manual_docker.png)
+![]
 
 ## **4️⃣ Problem: File Duplication Due to Existing React App**  
 
