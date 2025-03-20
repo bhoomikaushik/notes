@@ -60,7 +60,7 @@ if ! grep -qEi "(microsoft|wsl)" /proc/version; then
 
 ### **Cause:**  
 The script attempted to install **React 19**, but **Grafana UI**. Since the script installs the latest version of React which is React 19 and the latest version of grafana does not support React 19, therefore causing dependency conflicts.
-![](https://github.com/rhearobinson19/Mthree_Daily_Documentation/blob/main/WEEK%206/Images/REACT%20APP%20IMAGES/react_issue.png)
+![]
 ### **Solution:**  
 Issue can be resolved in two ways:  
 1. **Downgrade React** to version 18 to match Grafana’s requirements.  
@@ -131,7 +131,7 @@ npm install prom-client
 
 ### **Cause:**  
 The script attempted to apply Kubernetes configurations, but the namespace was not getting created, causing deployment failures.
-![](https://github.com/rhearobinson19/Mthree_Daily_Documentation/blob/main/WEEK%206/Images/REACT%20APP%20IMAGES/namespace_issue.png)
+![]
 ### **Solution:**  
 1. **Applied each Kubernetes YAML file separately** to identify the issue:  
    ```sh
@@ -151,7 +151,7 @@ The script attempted to apply Kubernetes configurations, but the namespace was n
 
 ### **Cause:**  
 The script originally used `cwd="$REACT_APP_DIR"`, which was not recognized as a valid argument. **"$REACT_APP_DIR"** was treated as a string in Python, not evaluated as a variable.
-![](https://github.com/rhearobinson19/Mthree_Daily_Documentation/blob/main/WEEK%206/Images/REACT%20APP%20IMAGES/cwd-error.png)
+
 ### **Solution:**  
 Fixed the script by using `subprocess.run()` with the correct `cwd` parameter:
 ```sh
@@ -165,7 +165,7 @@ This ensured that npm dependencies were installed in the correct directory.
 
 ### **Cause:**  
 The script execution might be consuming too many resources, causing Docker to slow down, therefore the docker building got timed out.
-![](https://github.com/rhearobinson19/Mthree_Daily_Documentation/blob/main/WEEK%206/Images/REACT%20APP%20IMAGES/docker_image_issue.png)
+![]
 ### **Solution:**  
 Ran Docker Separately Before Running the Full Script:  
    ```sh
