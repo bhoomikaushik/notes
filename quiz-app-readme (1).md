@@ -168,5 +168,3 @@ Your quiz application will be running at `http://localhost:5000` (or your config
 
 
 
-  <p>© 2025 Quiz Application</p>
-</div>
