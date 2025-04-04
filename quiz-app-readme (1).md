@@ -1,6 +1,6 @@
 # 🎮 Multiplayer Quiz Application
 
-A fast-paced, real-time multiplayer quiz platform where knowledge meets competition! Challenge yourself in solo mode or compete head-to-head against other players in exciting timed matches.
+This is the backend of the Multiplayer Quiz Application, built using Node.js, Express, and PostgreSQL. The backend handles authentication, game logic, matchmaking, database operations, and real-time communication with Socket.IO.
 
 
 
@@ -26,7 +26,6 @@ A fast-paced, real-time multiplayer quiz platform where knowledge meets competit
 | **PostgreSQL** | Database management |
 | **Socket.IO** | Real-time communication |
 | **JWT** | Authentication |
-| **bcrypt** | Password security |
 
 </div>
 
