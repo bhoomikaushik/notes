@@ -2,7 +2,7 @@
 
 A fast-paced, real-time multiplayer quiz platform where knowledge meets competition! Challenge yourself in solo mode or compete head-to-head against other players in exciting timed matches.
 
-![Quiz App Banner](https://via.placeholder.com/800x200?text=Quiz+Battle+Arena)
+
 
 ## ✨ Features
 
@@ -163,39 +163,10 @@ Your quiz application will be running at `http://localhost:5000` (or your config
 3. **Battle Begins** → Both players receive identical questions with 135-second timer
 4. **Final Score** → Winner determined, leaderboards updated
 
-## 🔐 Authentication
 
-After login, include the JWT token in your API requests:
 
-```http
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-```
 
-## 📡 Socket.IO Events
 
-Listen for these real-time events:
 
-- `connect` - Connection established
-- `game_start` - Multiplayer match begins
-- `game_end` - Game completed
-- `disconnected` - Connection lost
-
-## 🤝 Contributing
-
-We welcome contributions! Feel free to:
-
-- Report bugs
-- Suggest features
-- Submit pull requests
-- Improve documentation
-
-## 📜 License
-
-[Add your license here]
-
----
-
-<div align="center">
-  <p>Built with ❤️ by the Quiz App Team</p>
   <p>© 2025 Quiz Application</p>
 </div>
